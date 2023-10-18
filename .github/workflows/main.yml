@@ -20,11 +20,3 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
-  clone-repo:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Clone repository
-      run: |
-        git clone https://github.com/your-username/your-repo.git
-        # Add other necessary steps here if needed
